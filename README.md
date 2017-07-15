@@ -3,6 +3,6 @@ A very simple example project using Spring Boot to build a rest API. The example
 
 ##### step 1 - getting the code
 Getting the code on your machine can be done using the git command as shown in the example below:
-```
+```shell
 git clone https://github.com/louwersj/example_springboot_RESTAPI
 ```
