@@ -12,6 +12,20 @@ to get the docker container we used you can use the below command:
 docker pull oraclelinux:6.9
 ```
 
+##### Install Java
+We will need java, for this we use Java OpenJDK 1.8.0 which is available from the standard Oracle YUM server, this means we can install java with yum with the below command:
+```shell
+yum -y install java-1.8.0-openjdk-devel
+```
+
+you also will have to ensure you set JAVA_HOME. As this is a temporary environment we will just use export directly in our sessions and not set it in persistent manner (which you do want in other cases). To quickly set JAVA_HOME we used the below command:
+```shell
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/
+```
+
+##### Install Maven
+xxx
+
 ### Running the example
 The below steps will take you through downlaoding, packaging and running the example project. Following the steps (after you ensured you have the prerequisites in place) should be straight forward. 
 
