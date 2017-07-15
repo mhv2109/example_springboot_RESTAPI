@@ -20,12 +20,12 @@ java -jar gs-rest-service-0.1.0.jar
 ```
 
 ##### step 4 - testing the application
-Now that we have the code running you can test if it serves you what is expected from it. 
+Now that we have the code running you can test if it serves you what is expected from it. The code is intended to provide you a JSON file as soon as you call /greeting on port 8080. This means that we can use curl on the commandline to do so. 
 
 ```shell
 curl http://localhost:8080/greeting
 ```
-this should
+The above example test should give you something like the below response(which can differ on id as it is raise by one every time you call  greeting 
 ```json
 {"id":8,"content":"Hello, World!"}
 ```
