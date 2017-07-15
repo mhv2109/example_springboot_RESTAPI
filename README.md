@@ -24,7 +24,15 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/
 ```
 
 ##### Install Maven
-xxx
+Maven will be requried for the build process. We base the installation of maven on the process described in this blogpost which outlines the installation of Maven: http://johanlouwers.blogspot.nl/2017/04/oracle-linux-install-maven-with-yum.html 
+
+The basic command needed are the two below. The first is to ensure that the yum repo file is present which will take care of ensuring that maven can be installed the second command will install maven itself. 
+
+```shell
+wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+
+yum install -y apache-maven
+```
 
 ### Running the example
 The below steps will take you through downlaoding, packaging and running the example project. Following the steps (after you ensured you have the prerequisites in place) should be straight forward. 
