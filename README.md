@@ -12,3 +12,20 @@ As soon as you have retrieved the code you will have to compile and package your
 ```shell
 mvn clean package
 ```
+
+##### step 3 - running the code
+In the previous step we packaged the code which resulted in a self sufficient .jar file able to run the application. You can use this .jar file to run the application on the machine you build the code or on a different machine. running it can be done by using the below java command to start it. This should start the embeded application server and run the code which makes it availabel on port 8080
+```shell
+java -jar gs-rest-service-0.1.0.jar
+```
+
+##### step 4 - testing the application
+Now that we have the code running you can test if it serves you what is expected from it. 
+
+```shell
+curl http://localhost:8080/greeting
+```
+this should
+```json
+{"id":8,"content":"Hello, World!"}
+```
