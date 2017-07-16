@@ -65,3 +65,6 @@ The above example test should give you something like the below response(which c
 ```json
 {"id":8,"content":"Hello, World!"}
 ```
+
+### using it with Docker
+you can include plugins to build a docker conatiner in your pom.xml file. When done correctly the result of a maven build could become a container in your registry. A detailed explanation of this principle is given on this site: https://springframework.guru/running-spring-boot-in-a-docker-container/
