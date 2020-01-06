@@ -101,7 +101,7 @@ $ pip install --user requests
 
 #### application.py
 
-```text
+```python
 import requests
 
 def get_greeting(name: str) -> dict:
