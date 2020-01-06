@@ -1,5 +1,7 @@
 # API
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5a0b8d940d4dce0cb7a6)
+
 {% api-method method="get" host="http://localhost:8080" path="/greeting" %}
 {% api-method-summary %}
 Get Default Greeting
