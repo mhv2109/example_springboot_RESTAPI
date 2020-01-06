@@ -26,7 +26,7 @@ Greeting successfully generated.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="http://localhost:8080/greeting" path="" %}
+{% api-method method="get" host="http://localhost:8080/greeting" path="" %}
 {% api-method-summary %}
 Get Custom Greeting
 {% endapi-method-summary %}
